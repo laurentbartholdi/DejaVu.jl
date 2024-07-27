@@ -1,0 +1,3 @@
+[submodule "deps/dejavu"]
+	path = deps/dejavu
+	url = https://github.com/markusa4/dejavu
