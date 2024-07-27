@@ -1,1 +1,7 @@
 /Manifest.toml
+/deps/CMakeCache.txt
+/deps/CMakeFiles/
+/deps/Makefile
+/deps/build.log
+/deps/cmake_install.cmake
+/deps/lib/
