@@ -12,7 +12,7 @@ julia> c = cycle_graph(10) # from Graphs
 julia> g = StaticGraph(c)
 DejaVu.StaticGraphAllocated(Ptr{Nothing} @0x0000600000b13840)
 
-julia> d = Solver()
+julia> d = DejaVu.Solver()
 DejaVu.SolverAllocated(Ptr{Nothing} @0x0000600002737f30)
 
 julia> automorphisms!(d,g)
@@ -30,8 +30,8 @@ ______________________________________________________________
 0.18       0.04       dfs         2-0             ~2*10^1
 0.19       0.01       done        1               2
 
-julia> group_size(d) |> String
-"2*10^1"
+julia> group_size(d)
+20
 ```
 
 [![Build Status](https://github.com/laurentbartholdi/DejaVu.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/laurentbartholdi/DejaVu.jl/actions/workflows/CI.yml?query=branch%3Amain)
