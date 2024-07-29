@@ -22,7 +22,7 @@ using Test, DejaVu, Graphs
     g = StaticGraph(c,==(1))
     automorphisms!(d,g)
     @test group_size(d) == 2
-    o = Orbit(10)
+    o = DejaVu.Orbit(10)
     automorphisms!(d,g,o)
-    @test [orbit_size(o,i) for i=0:9] == [1,2,2,2,2,1,2,2,2,2]
+    @test [DejaVu.orbit_size(o,i) for i=0:9] == [1,2,2,2,2,1,2,2,2,2]
 end
