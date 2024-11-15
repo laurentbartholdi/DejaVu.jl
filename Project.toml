@@ -11,10 +11,10 @@ Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]
-CxxWrap = "0.14 - 1"
+CxxWrap = "0.14 - 0.18""
 Graphs = "1"
 julia = "1"
-DataStructures = "0.18 - 1"
+DataStructures = "0.18 - 0.20"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
